@@ -1,0 +1,266 @@
+{
+    "DOCUMENTS": [
+        {
+            "title": "Python List Comprehensions",
+            "content": "List comprehensions in Python provide a concise way to create lists using a single line of code with optional filtering."
+        },
+        {
+            "title": "Python Decorators",
+            "content": "Decorators in Python are functions that wrap another function to extend its behavior without modifying its source code."
+        },
+        {
+            "title": "Python Generators",
+            "content": "Generators use the yield keyword to return values lazily, making them memory-efficient for large data processing."
+        },
+        {
+            "title": "Python Context Managers",
+            "content": "Context managers using the with statement handle resource setup and teardown automatically, commonly used for file I/O and DB connections."
+        },
+        {
+            "title": "Python Type Hints",
+            "content": "Type hints in Python allow static type checking using annotations like str, int, list[str], and Optional from the typing module."
+        },
+        {
+            "title": "Python Virtual Environments",
+            "content": "Virtual environments isolate Python project dependencies so different projects can use different package versions without conflict."
+        },
+        {
+            "title": "Python Exception Handling",
+            "content": "Python uses try, except, else, and finally blocks to handle exceptions gracefully and prevent program crashes."
+        },
+        {
+            "title": "Python Dataclasses",
+            "content": "Dataclasses automatically generate __init__, __repr__, and __eq__ methods, reducing boilerplate for classes that primarily store data."
+        },
+        {
+            "title": "Python Async Await",
+            "content": "Async and await keywords in Python enable writing non-blocking code that can handle many concurrent tasks without threads."
+        },
+        {
+            "title": "Python Lambda Functions",
+            "content": "Lambda functions are anonymous single-expression functions useful for short operations passed as arguments to map, filter, or sorted."
+        },
+        {
+            "title": "MongoDB Aggregation Pipeline",
+            "content": "MongoDB aggregation pipelines process documents through stages like $match, $group, $sort, and $project to transform and analyze data."
+        },
+        {
+            "title": "MongoDB Indexes",
+            "content": "Indexes in MongoDB improve query performance by allowing the database to quickly locate documents without scanning the entire collection."
+        },
+        {
+            "title": "MongoDB Schema Design",
+            "content": "MongoDB schema design involves choosing between embedding related data in one document or referencing it across multiple collections."
+        },
+        {
+            "title": "MongoDB Transactions",
+            "content": "Multi-document ACID transactions in MongoDB allow multiple read and write operations to succeed or fail as a single atomic unit."
+        },
+        {
+            "title": "MongoDB Change Streams",
+            "content": "Change streams allow applications to subscribe to real-time changes in a collection, database, or entire MongoDB deployment."
+        },
+        {
+            "title": "MongoDB Atlas Search",
+            "content": "Atlas Search provides full-text search capabilities built on Apache Lucene, supporting fuzzy matching, facets, and relevance scoring."
+        },
+        {
+            "title": "MongoDB Sharding",
+            "content": "Sharding in MongoDB horizontally distributes data across multiple servers using a shard key to handle large datasets and high throughput."
+        },
+        {
+            "title": "MongoDB Replica Sets",
+            "content": "Replica sets provide high availability by maintaining multiple copies of data across servers with automatic failover."
+        },
+        {
+            "title": "MongoDB GridFS",
+            "content": "GridFS is a specification for storing large files in MongoDB by splitting them into chunks and storing metadata separately."
+        },
+        {
+            "title": "MongoDB TTL Indexes",
+            "content": "TTL indexes automatically delete documents after a specified time period, useful for expiring sessions, logs, or temporary data."
+        },
+        {
+            "title": "What is a Vector Embedding",
+            "content": "A vector embedding is a numerical representation of data like text or images as a fixed-size array of floats that captures semantic meaning."
+        },
+        {
+            "title": "Cosine Similarity",
+            "content": "Cosine similarity measures the angle between two vectors in high-dimensional space, returning a score between 0 and 1 for semantic closeness."
+        },
+        {
+            "title": "HNSW Algorithm",
+            "content": "HNSW is a graph-based approximate nearest neighbor algorithm that builds a layered structure for fast and accurate vector search."
+        },
+        {
+            "title": "Semantic Search vs Keyword Search",
+            "content": "Semantic search finds results based on meaning and context, while keyword search matches exact words or patterns in documents."
+        },
+        {
+            "title": "RAG Architecture",
+            "content": "Retrieval-augmented generation combines vector search to fetch relevant context from a knowledge base before passing it to an LLM for grounded answers."
+        },
+        {
+            "title": "Vector Search Indexing",
+            "content": "Vector search indexes precompute relationships between embeddings using algorithms like HNSW or IVF to enable fast approximate nearest neighbor queries."
+        },
+        {
+            "title": "Sentence Transformers",
+            "content": "Sentence transformers are BERT-based models fine-tuned to produce semantically meaningful sentence embeddings for tasks like similarity and clustering."
+        },
+        {
+            "title": "Chunking Strategies for RAG",
+            "content": "Chunking splits large documents into smaller overlapping segments before embedding to improve retrieval precision in RAG pipelines."
+        },
+        {
+            "title": "Hybrid Search",
+            "content": "Hybrid search combines dense vector search with sparse keyword search using reciprocal rank fusion to improve overall retrieval quality."
+        },
+        {
+            "title": "Vector Database Comparison",
+            "content": "Pinecone, Qdrant, Weaviate, and MongoDB Atlas Vector Search differ in hosting model, filtering support, and scalability characteristics."
+        },
+        {
+            "title": "CAP Theorem",
+            "content": "The CAP theorem states that a distributed system can only guarantee two of three properties: consistency, availability, and partition tolerance."
+        },
+        {
+            "title": "Database Sharding Strategies",
+            "content": "Sharding strategies include range-based, hash-based, and directory-based approaches to distribute data across database nodes."
+        },
+        {
+            "title": "Rate Limiting Algorithms",
+            "content": "Common rate limiting algorithms include token bucket, leaky bucket, fixed window, and sliding window, each with different burst handling characteristics."
+        },
+        {
+            "title": "Message Queue Patterns",
+            "content": "Message queues like RabbitMQ and Kafka decouple producers and consumers, enabling async processing, load leveling, and fault tolerance."
+        },
+        {
+            "title": "Caching Strategies",
+            "content": "Caching strategies include cache-aside, write-through, write-behind, and read-through, each with different consistency and performance trade-offs."
+        },
+        {
+            "title": "API Gateway Pattern",
+            "content": "An API gateway acts as a single entry point for clients, handling routing, authentication, rate limiting, and request transformation."
+        },
+        {
+            "title": "Circuit Breaker Pattern",
+            "content": "The circuit breaker pattern prevents cascading failures by stopping calls to a failing service and allowing it time to recover."
+        },
+        {
+            "title": "Saga Pattern",
+            "content": "The Saga pattern manages distributed transactions across microservices using a sequence of local transactions with compensating rollback steps."
+        },
+        {
+            "title": "CQRS Pattern",
+            "content": "CQRS separates read and write models into distinct services, optimizing each independently for query performance and write throughput."
+        },
+        {
+            "title": "Event Sourcing",
+            "content": "Event sourcing stores state changes as an immutable sequence of events rather than current state, enabling full audit trails and time travel queries."
+        },
+        {
+            "title": "Supervised vs Unsupervised Learning",
+            "content": "Supervised learning trains on labeled data to predict outputs, while unsupervised learning finds hidden patterns in unlabeled data."
+        },
+        {
+            "title": "Overfitting and Regularization",
+            "content": "Overfitting occurs when a model memorizes training data. Regularization techniques like L1, L2, and dropout reduce overfitting by penalizing complexity."
+        },
+        {
+            "title": "Transformer Architecture",
+            "content": "Transformers use self-attention mechanisms to process sequences in parallel, enabling models like BERT and GPT to understand long-range dependencies."
+        },
+        {
+            "title": "Fine-tuning LLMs",
+            "content": "Fine-tuning adapts a pretrained language model to a specific task or domain by continuing training on a smaller labeled dataset."
+        },
+        {
+            "title": "Attention Mechanism",
+            "content": "Attention allows models to dynamically focus on relevant parts of the input sequence when producing each output token, enabling context-aware predictions."
+        },
+        {
+            "title": "Embeddings in NLP",
+            "content": "Word and sentence embeddings map tokens to dense vectors in a continuous space where semantically similar words cluster together."
+        },
+        {
+            "title": "Transfer Learning",
+            "content": "Transfer learning reuses a model pretrained on a large dataset as the starting point for a new task, reducing training time and data requirements."
+        },
+        {
+            "title": "Gradient Descent",
+            "content": "Gradient descent iteratively adjusts model weights in the direction that minimizes the loss function, with variants like Adam and SGD for different scenarios."
+        },
+        {
+            "title": "Tokenization in LLMs",
+            "content": "Tokenization splits raw text into subword units using algorithms like BPE or WordPiece before converting them to integer IDs for model input."
+        },
+        {
+            "title": "Vector Quantization",
+            "content": "Vector quantization compresses embeddings by mapping them to the nearest entry in a learned codebook, reducing storage while preserving semantic structure."
+        }
+    ],
+    "QUERIES": [
+        {
+            "query": "how do I avoid writing repetitive boilerplate in Python classes",
+            "expect": "Python Dataclasses"
+        },
+        {
+            "query": "run multiple tasks at the same time in Python",
+            "expect": "Python Async Await"
+        },
+        {
+            "query": "save memory when processing large files in Python",
+            "expect": "Python Generators"
+        },
+        {
+            "query": "automatically remove old records after some time",
+            "expect": "MongoDB TTL Indexes"
+        },
+        {
+            "query": "listen to database changes in real time",
+            "expect": "MongoDB Change Streams"
+        },
+        {
+            "query": "store files and images in MongoDB",
+            "expect": "MongoDB GridFS"
+        },
+        {
+            "query": "find similar documents based on meaning not keywords",
+            "expect": "Semantic Search vs Keyword Search"
+        },
+        {
+            "query": "how does vector search stay fast with millions of records",
+            "expect": "HNSW Algorithm"
+        },
+        {
+            "query": "ground an LLM with my own private data",
+            "expect": "RAG Architecture"
+        },
+        {
+            "query": "prevent one failing service from taking down the whole system",
+            "expect": "Circuit Breaker Pattern"
+        },
+        {
+            "query": "handle distributed transactions across multiple microservices",
+            "expect": "Saga Pattern"
+        },
+        {
+            "query": "separate reading and writing for better performance",
+            "expect": "CQRS Pattern"
+        },
+        {
+            "query": "reuse a pretrained model for a new task",
+            "expect": "Transfer Learning"
+        },
+        {
+            "query": "model performing well on training but badly on new data",
+            "expect": "Overfitting and Regularization"
+        },
+        {
+            "query": "how does a model decide what part of input to focus on",
+            "expect": "Attention Mechanism"
+        }
+    ]
+}

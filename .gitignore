@@ -19,8 +19,6 @@ venv/
 .venv
 
 # Data & PDFs
-*.pdf
-data.json
 *.db
 
 # OS
